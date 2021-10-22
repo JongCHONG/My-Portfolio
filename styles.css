@@ -1,3 +1,54 @@
+html {
+    height: 100%;
+  }  
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
+    background-image: url(img/business-2717063_1920.jpg);
+}
+.nav-bar{
+    display: flex;
+    letter-spacing: 5px;
+    justify-content: end;
+    margin: 20px;
+}
+li{
+    margin: 10px;
+}
+.container {
+    display: flex;
+}
+.right{
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    min-height: 100vh;
+    color: white;
+}
+.left{
+    min-height: 100vh;
+    width: 50%;
+    background-color: rgba(255,255,255,0.5);
+    display: flex;
+}
+h2{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.logo{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+.logo img{
+    margin: 30px;
+    width: 60%;
+}
+.left h1{
+    position: absolute;
+    margin: 20px;
+    font-weight: bolder;
 }
