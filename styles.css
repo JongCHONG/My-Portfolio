@@ -3,6 +3,9 @@ html {
   }  
 body{
     font-family: 'Raleway';
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-image: url(img/business-2717063_1920.jpg);
 }
 .nav-bar{
@@ -19,7 +22,7 @@ li{
 }
 .right{
     width: 50%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.664);
     min-height: 100vh;
     color: white;
 }
@@ -45,10 +48,29 @@ h2{
 }
 .logo img{
     margin: 30px;
-    width: 60%;
+    width: 30%;
 }
 .left h1{
     position: absolute;
     margin: 20px;
     font-weight: bolder;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 50% auto;
+}
+.titre{
+    margin: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+.content{
+    width: 80%;
+    line-height: 1.5;
+    padding: 10px;
+    background-color: rgba(163, 163, 163, 0.5);
 }

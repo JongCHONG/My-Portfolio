@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,30 +10,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
     <title>Cjh - Développeur web et web mobile</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
     </header>
     <div class="container">
-        <div class="left">
-            <h1>// CHONG Jong Hoa</h1>
-            <div class="logo">
-                <img src="img/logoJong3.png" alt="">
-                <h2>Recherche de stage en Développeur Full Stack</h2>
+      <div class="left">
+        <h1>// CHONG Jong Hoa</h1>
+        <div class="logo">
+          <img src="img/logoJong3.png" alt="">
+          <h2>Recherche de stage en Développeur Full Stack</h2>
+        </div>
+      </div>
+      <div class="right">
+        <ul class="nav-bar">
+          <li id="Accueil" onmouseover="mouseOver(`Accueil`)" onmouseout="mouseOut(`Accueil`)">Accueil</li>
+          <li id="Projets" onmouseover="mouseOver(`Projets`)" onmouseout="mouseOut(`Projets`)">Projets</li>
+          <li id="Compétences" onmouseover="mouseOver(`Compétences`)" onmouseout="mouseOut(`Compétences`)">Compétences</li>
+          <li id="Contact" onmouseover="mouseOver(`Contact`)" onmouseout="mouseOut(`Contact`)">Contact</li>
+        </ul>
+        <div class="about">
+          <div class="titre">
+            <div>
+              A propos de moi
             </div>
+          </div>
+          <div class="content">
+            <p>
+              Passionné par la réalisation et le développement de projets web, j'ai eu mon BTS Informatique de gestion Option développeur qui m'a permis d'acquérir les bases de programmation.
+              Je suis actuellement en formation Développeur Web et web mobile (RNCP niveau 5) afin de me spécialiser et j’aimerais intégrer une 
+              entreprise dynamique pour mon stage de fin de formation. 
+            </p>
+          </div>
         </div>
-        <div class="right">
-            <ul class="nav-bar">
-                <li id="{ Accueil }" onmouseover="mouseOver(`{ Accueil }`)" onmouseout="mouseOut(`Accueil`)">Accueil</li>
-                <li id="{ Projets }" onmouseover="mouseOver(`{ Projets }`)" onmouseout="mouseOut(`Projets`)">Projets</li>
-                <li id="{ Compétences }" onmouseover="mouseOver(`{ Compétences }`)" onmouseout="mouseOut(`Compétences`)">Compétences</li>
-                <li id="{ Contact }" onmouseover="mouseOver(`{ Contact }`)" onmouseout="mouseOut(`Contact`)">Contact</li>
-            </ul>
-            link
-        </div>
+      </div>
     </div>
     <footer>
     </footer>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
